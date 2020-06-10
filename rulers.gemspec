@@ -27,4 +27,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "rack"
-end
+  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "test-unit"
+end # TODO left off on page 24
