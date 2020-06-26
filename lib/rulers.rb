@@ -1,4 +1,5 @@
 require "rulers/version"
+require "rulers/array"
 
 module Rulers
   class Error < StandardError; end
